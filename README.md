@@ -8,7 +8,7 @@ Comprehensive evaluation using the **RAGAS** framework demonstrates substantial 
 
 This repository contains the complete implementation of our enhanced RAG architecture for data science applications. The image below provides a high-level overview of the architecture.
 
-![Enhanced RAG Architecture]([./image.png](https://github.com/Ahmetyasin/Data_Science_RAG_Paper/blob/main/img/Enhanced_Architecture.png))
+![Enhanced RAG Architecture](https://github.com/Ahmetyasin/Data_Science_RAG_Paper/blob/main/img/Enhanced_Architecture.png)
 
 ### **Key Improvements in the Architecture:**
 - **Semantic Chunking**: Abstracts and articles are semantically chunked to allow for improved information retrieval.
@@ -23,17 +23,17 @@ This additional repository contains instructions on how to prepare data for fine
 
 ## **Table 1: Fine-Tuning Trials**
 
-| Model                  | Dataset                                   | Embedding Size | Performance Improvement (%) |
-|------------------------|-------------------------------------------|----------------|-----------------------------|
-| SentenceTransformer V1  | Textbook Data Science (Preprocessed)      | 768            | 12%                         |
-| SentenceTransformer V2  | Grobid-Extracted Academic Papers          | 1024           | 18%                         |
-| MPNet Fine-Tuned        | Textbook + Articles                       | 768            | 22%                         |
-| OpenAI GPT-4 Embedding  | Textbook (Semantic Chunking)              | 768            | 28%                         |
-| GPT-4 Large Embedding   | Textbook + Articles + Grobid-Parsed Data  | 1024           | 35%                         |
+![Table 1](https://github.com/Ahmetyasin/Data_Science_RAG_Paper/blob/main/img/Table_1.png)
+
 
 ## **Repository Structure**
 
 This repository provides all the necessary code to reproduce the results for **Table 2** and **Table 3** from the paper. The main code for these experiments can be found in the `Codes` folder.
+
+## **Table 2: RAG Pipelines**
+
+![Table 2](https://github.com/Ahmetyasin/Data_Science_RAG_Paper/blob/main/img/Table_2.png)
+
 
 ### **Folder Structure:**
 
