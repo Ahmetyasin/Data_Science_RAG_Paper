@@ -32,16 +32,12 @@ All the **fine-tuning trials** shown in **Table 1** can be reproduced using the 
 
 This additional repository contains instructions on how to prepare data for fine-tuning and fine-tune an open-source model, which is then pushed to Hugging Face. All results in **Table 1** are generated using a similar approach.
 
-## **Table 1: Fine-Tuning Trials**
-
 ![Table 1](https://github.com/Ahmetyasin/Data_Science_RAG_Paper/blob/main/img/Table_1.png)
 
 
 ## **Repository Structure**
 
 This repository provides all the necessary code to reproduce the results for **Table 2** and **Table 3** from the paper. The main code for these experiments can be found in the `Codes` folder.
-
-## **Table 2: RAG Pipelines**
 
 ![Table 2](https://github.com/Ahmetyasin/Data_Science_RAG_Paper/blob/main/img/Table_2.png)
 
