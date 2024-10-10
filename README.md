@@ -11,10 +11,21 @@ This repository contains the complete implementation of our enhanced RAG archite
 ![Enhanced RAG Architecture](https://github.com/Ahmetyasin/Data_Science_RAG_Paper/blob/main/img/Enhanced_Architecture.png)
 
 ### **Key Improvements in the Architecture:**
-- **Semantic Chunking**: Abstracts and articles are semantically chunked to allow for improved information retrieval.
-- **Fine-Tuned Embedding Models**: The embedding models are fine-tuned on academic textbooks to increase the precision of vector representation in the data science domain.
-- **Abstract-First Retrieval**: An abstract-based retrieval strategy that enhances the accuracy and contextual relevance of results.
-- **Vector Databases**: Custom-built vector databases for content and abstract retrieval.
+1. **GROBID for Data Structuring and Cleaning**:  
+   We utilize GROBID, a leading tool for reference parsing and metadata extraction, to clean and structure academic PDFs before embedding them into the vector database. GROBID’s superior performance in various domains ensures high-quality metadata and more accurate retrieval responses.
+
+2. **Fine-Tuning of Embedding Models**:  
+   The embedding models are fine-tuned using domain-specific data science literature, which improves the model's ability to handle specialized queries. By leveraging fine-tuning techniques from the latest studies, we ensure high accuracy and contextual relevance in the retrieved content.
+
+3. **Semantic Chunking**:  
+   We use semantic chunking to break down complex information into meaningful segments. This technique improves retrieval coherence and has been proven effective in various specialized domains such as healthcare and visual question answering (VQA).
+
+4. **Abstract-First Retrieval**:  
+   This novel method prioritizes searches within article abstracts, allowing for faster and more relevant retrieval by focusing on the core findings and methodologies summarized in the abstracts. This technique reduces computational load while improving retrieval accuracy.
+
+5. **Advanced Prompting Techniques**:  
+   Our RAG system incorporates advanced prompting strategies like tip-offering and emotional prompting, improving the contextual relevance and performance of large language models (LLMs). These techniques guide the model toward more accurate and nuanced responses.
+
 
 All the **fine-tuning trials** shown in **Table 1** can be reproduced using the repository linked below:  
 **[Fine-Tuning and Data Preparation Repository](https://github.com/Ahmetyasin/DS-Fine-Tuning-Embedding)**
